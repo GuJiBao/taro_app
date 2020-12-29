@@ -1,0 +1,79 @@
+.login-wrap {
+  position: relative;
+  background: url("http://sjx-static.oss-cn-hangzhou.aliyuncs.com/six-static-weapp/login-bg.png") #f5f5f5 no-repeat;
+  background-size: 100% auto;
+  height: 100vh;
+  padding: 40px 20px 0;
+  box-sizing: border-box;
+}
+.form-box {
+  width: 100%;
+  height: calc(100vh - 400px);
+  margin-top: 130px;
+  padding: 60px 40px 52px;
+  background: #fff;
+  border-radius: 40px;
+  box-sizing: border-box;
+  
+  .form-title {
+    margin-left: 66px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #1F1F1F;
+  }
+  .form {
+    margin-top: 88px;
+  }
+  .input-phone, .input-code {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+  }
+  .input-phone {
+    padding: 30px 54px;
+    background: #F5F5F5;
+    border-radius: 54px;
+    box-sizing: border-box;
+  }
+  .code-box {
+    height: 108px;
+    margin-top: 40px;
+    padding: 0 54px;
+    background: #F5F5F5;
+    border-radius: 54px;
+    box-sizing: border-box;
+  }
+  .input-code {
+    width: 200px;
+    padding: 28rpx 0;
+    background: none;
+  }
+  .send-code {
+    padding: 0 20px;
+    line-height: 108px;
+    text-align: right;
+    font-size: 27px;
+    color: #333;
+  }
+  .send-code-disabled {
+    color: rgba(153, 153, 153, 1);
+  }
+  .login-btn {
+    margin-top: 80px;
+    height: 92px;
+    background: linear-gradient(90deg, #FFD462 0%, #FFC235 100%);
+    border-radius: 46px;
+    border: none;
+  }
+}
+.agree {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  .text {
+    font-size: 24px;
+    color: #858585;
+  }
+}

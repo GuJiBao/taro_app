@@ -1,0 +1,17 @@
+@import "~taro-ui/dist/style/index.scss"; // 引入组件样式，仅需引入一次即可
+/*======== 覆盖 taro-ui样式 ========*/
+// AtNavBar组件样式
+.at-nav-bar, .at-nav-bar__left-view {
+  background: none;
+}
+
+// input
+.at-input {
+  margin: 0;
+}
+
+/*======== 自定义样式 ========*/
+// 隐藏::after
+.no-after::after {
+  display: none;
+}
