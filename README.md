@@ -1,1 +1,1 @@
-#sjx_taro_app
+#taro_app
